@@ -13,13 +13,21 @@ ReActNet FPGA Accelerator
 ## Document Structure
 上传网络结构文件和权重文件。（权重不是训练结果，是暂时乱写的，主要验证加速器设计）
 |---src
+
   |-react.h（主网络头文件）
+  
   |-react.cpp（主网络结构）
+  
   |-conv_weight.h（卷积权重）
+  
   |-dimension_def.h（维度定义）
+  
   |-layer.h（功能层定义：batchnorm、量化、shortcut、...）
+  
   |-conv.h（卷积定义）
+  
   |-typedefs.h（数据类型定义）
+  
   |-weight_fp.h（全精度权重）
 
 
